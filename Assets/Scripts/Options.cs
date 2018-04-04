@@ -7,7 +7,7 @@ public class Options : MonoBehaviour {
 
 	public void PlayGame()
     {
-        SceneManager.LoadScene(2); // if press playGame open scene2
+        SceneManager.LoadScene(3); // if press playGame open scene2
     }
     public void SelectTrack()
     {
