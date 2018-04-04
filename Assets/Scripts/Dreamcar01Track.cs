@@ -5,13 +5,8 @@ using UnityEngine;
 public class Dreamcar01Track : MonoBehaviour {
 
     public GameObject TheMarker;
-    public GameObject Mark01;
-    public GameObject Mark02;
-    public GameObject Mark03;
-    public GameObject Mark04;
-    public GameObject Mark05;
-    public GameObject Mark06;
-    public GameObject Mark07;
+    public GameObject Mark01, Mark02, Mark03, Mark04, Mark05, Mark06, Mark07, Mark08, Mark09, Mark10,
+        Mark11, Mark12, Mark13, Mark14, Mark15, Mark16, Mark17, Mark18, Mark19, Mark20, Mark21;
     public int MarkTracker;
 	
 	// Update is called once per frame
@@ -44,6 +39,62 @@ public class Dreamcar01Track : MonoBehaviour {
         {
             TheMarker.transform.position = Mark07.transform.position;
         }
+        if (MarkTracker == 7)
+        {
+            TheMarker.transform.position = Mark08.transform.position;
+        }
+        if (MarkTracker == 8)
+        {
+            TheMarker.transform.position = Mark09.transform.position;
+        }
+        if (MarkTracker == 9)
+        {
+            TheMarker.transform.position = Mark10.transform.position;
+        }
+        if (MarkTracker == 10)
+        {
+            TheMarker.transform.position = Mark11.transform.position;
+        }
+        if (MarkTracker == 11)
+        {
+            TheMarker.transform.position = Mark12.transform.position;
+        }
+        if (MarkTracker == 12)
+        {
+            TheMarker.transform.position = Mark13.transform.position;
+        }
+        if (MarkTracker == 13)
+        {
+            TheMarker.transform.position = Mark14.transform.position;
+        }
+        if (MarkTracker == 14)
+        {
+            TheMarker.transform.position = Mark15.transform.position;
+        }
+        if (MarkTracker == 15)
+        {
+            TheMarker.transform.position = Mark16.transform.position;
+        }
+        if (MarkTracker == 16)
+        {
+            TheMarker.transform.position = Mark17.transform.position;
+        }
+        if (MarkTracker == 17)
+        {
+            TheMarker.transform.position = Mark18.transform.position;
+        }
+        if (MarkTracker == 18)
+        {
+            TheMarker.transform.position = Mark19.transform.position;
+        }
+        if (MarkTracker == 19)
+        {
+            TheMarker.transform.position = Mark20.transform.position;
+        }
+        if (MarkTracker == 20)
+        {
+            TheMarker.transform.position = Mark21.transform.position;
+        }
 
     }
 
@@ -53,7 +104,7 @@ public class Dreamcar01Track : MonoBehaviour {
         {
             this.GetComponent<BoxCollider>().enabled = false;
             MarkTracker += 1;
-            if(MarkTracker == 7)
+            if(MarkTracker == 21)
             {
                 MarkTracker = 0;
             }

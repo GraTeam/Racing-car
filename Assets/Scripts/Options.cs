@@ -21,5 +21,9 @@ public class Options : MonoBehaviour {
     {
         SceneManager.LoadScene(2);
     }
+    public void NightTrack()       
+    {
+        SceneManager.LoadScene(3);
+    }
 
 }
