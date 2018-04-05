@@ -25,6 +25,10 @@ public class Options : MonoBehaviour {
     {
         SceneManager.LoadScene(3);
     }
+    public void DesertMorningTrack()
+    {
+        SceneManager.LoadScene(4);
+    }
     public void Exit()
     {
         Application.Quit();
