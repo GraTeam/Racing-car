@@ -637,7 +637,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1867866497}
-        m_MethodName: NightTrack
+        m_MethodName: DesertMorningTrack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
