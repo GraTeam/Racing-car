@@ -29,6 +29,10 @@ public class Options : MonoBehaviour {
     {
         SceneManager.LoadScene(4);
     }
+    public void DesertNightTrack()
+    {
+        SceneManager.LoadScene(5);
+    }
     public void Exit()
     {
         Application.Quit();
