@@ -33,6 +33,11 @@ public class Options : MonoBehaviour {
     {
         SceneManager.LoadScene(5);
     }
+    public void CityMorningTrack()
+    {
+        SceneManager.LoadScene(6);
+    }
+
     public void Exit()
     {
         Application.Quit();
