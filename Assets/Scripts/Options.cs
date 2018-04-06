@@ -37,6 +37,10 @@ public class Options : MonoBehaviour {
     {
         SceneManager.LoadScene(6);
     }
+    public void CityNightTrack()
+    {
+        SceneManager.LoadScene(7);
+    }
 
     public void Exit()
     {
