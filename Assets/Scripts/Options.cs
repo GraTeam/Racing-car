@@ -5,10 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Options : MonoBehaviour {
 
-	public void PlayGame()
-    {
-        SceneManager.LoadScene(3); // if press playGame open scene2
-    }
+	
     public void SelectTrack()
     {
         SceneManager.LoadScene(1);  // if press SelectTrack open scene1
@@ -41,9 +38,14 @@ public class Options : MonoBehaviour {
     {
         SceneManager.LoadScene(7);
     }
+    public void OptionsMenu()
+    {
+        SceneManager.LoadScene(8);
+    }
 
     public void Exit()
     {
+        Debug.Log("Exit");
         Application.Quit();
     }
 
