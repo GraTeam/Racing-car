@@ -458,6 +458,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e03a74e9f9aee4409ba1dbb9360643e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FullScreenToggle: {fileID: 1472934263}
+  VolumeSlider: {fileID: 1538598332}
+  QulaityDropdown: {fileID: 685241628}
   audioMixer: {fileID: 24100000, guid: c6b60da2ce0a1474cb8657405fb7a141, type: 2}
   ResolutionDropdown: {fileID: 1660914762}
 --- !u!1 &384718786
@@ -2518,7 +2521,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 330522716}
         m_MethodName: SetFullScreen
-        m_Mode: 0
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3665,7 +3668,7 @@ GameObject:
   - component: {fileID: 2132610471}
   - component: {fileID: 2132610470}
   m_Layer: 5
-  m_Name: Graphics
+  m_Name: Quality
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3721,7 +3724,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Graphics
+  m_Text: Quality
 --- !u!222 &2132610471
 CanvasRenderer:
   m_ObjectHideFlags: 0
