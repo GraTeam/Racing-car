@@ -10,7 +10,6 @@ public class LapComplete : MonoBehaviour {
     public GameObject MinuteDisplay;
     public GameObject SecondDisplay;
     public GameObject MilliDisplay;
-    public GameObject LapTimeBox;
     public GameObject RoundsCounter;
     public int RoundsDone;
     public float RowTime;

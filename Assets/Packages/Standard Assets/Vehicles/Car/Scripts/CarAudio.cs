@@ -71,7 +71,7 @@ namespace UnityStandardAssets.Vehicles.Car
         }
 
 
-        private void StopSound()
+        public void StopSound()
         {
             //Destroy all audio sources on this object:
             foreach (var source in GetComponents<AudioSource>())

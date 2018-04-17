@@ -11,8 +11,6 @@ public class SettingsMenu : MonoBehaviour {
     public AudioMixer audioMixer;
     public Dropdown ResolutionDropdown;
     Resolution[] resolutions;
-
-
     void Start()
     {
         resolutions = Screen.resolutions;
@@ -36,7 +34,7 @@ public class SettingsMenu : MonoBehaviour {
         ResolutionDropdown.RefreshShownValue();
         SetVolume(PlayerPrefs.GetFloat("volume", 10f));
         SetQuality(PlayerPrefs.GetInt("quality",1));
-        SetQuality(PlayerPrefs.GetInt("qualityVal", 1));
+        //SetQuality(PlayerPrefs.GetInt("qualityVal", 1));
         SetResolution(PlayerPrefs.GetInt("resolution", 1));
         if (PlayerPrefs.GetInt("StoredFullBool") == 1)
         {
@@ -53,6 +51,7 @@ public class SettingsMenu : MonoBehaviour {
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume",volume);
+
         PlayerPrefs.SetFloat("volume",volume);
         PlayerPrefs.Save();
     }
@@ -60,8 +59,8 @@ public class SettingsMenu : MonoBehaviour {
     public void SetQuality(int qualityIndex)
     {
         QualitySettings.SetQualityLevel(qualityIndex);
-        qualityIndex = QulaityDropdown.value;
-        PlayerPrefs.SetInt("qualityVal",QulaityDropdown.value);
+        //qualityIndex = QulaityDropdown.value;
+        //PlayerPrefs.SetInt("qualityVal",QulaityDropdown.value);
         PlayerPrefs.SetInt("quality",qualityIndex);
         PlayerPrefs.Save();
     }
