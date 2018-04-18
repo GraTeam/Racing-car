@@ -39,6 +39,7 @@ public class CarSelection : MonoBehaviour {
 
     public void Car3()
     {
+        SelectedCar = 3;
         SelectCar3.SetActive(true);
         SelectCar1.SetActive(false);
         SelectCar2.SetActive(false);
