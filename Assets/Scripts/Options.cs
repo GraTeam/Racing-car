@@ -9,6 +9,11 @@ public class Options : MonoBehaviour {
     public GameObject loadingScreen;
     public Slider slider;
     public Text progressText;
+
+    public void SelectCar()
+    {
+        SceneManager.LoadScene(9);
+    }
     public void SelectTrack()
     {
         SceneManager.LoadScene(1);  // if press SelectTrack open scene1
