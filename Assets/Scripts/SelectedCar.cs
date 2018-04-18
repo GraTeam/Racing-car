@@ -27,6 +27,26 @@ public class SelectedCar : MonoBehaviour {
             SelectCar2.SetActive(true);
         }
 
+        if (CarImport == 3)
+        {
+            SelectCar3.SetActive(true);
+        }
+
+        if (CarImport == 4)
+        {
+            SelectCar4.SetActive(true);
+        }
+
+        if (CarImport == 5)
+        {
+            SelectCar5.SetActive(true);
+        }
+
+        if (CarImport == 6)
+        {
+            SelectCar6.SetActive(true);
+        }
+
     }
 	
 	
