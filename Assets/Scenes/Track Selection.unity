@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 694893877}
   - component: {fileID: 694893876}
   m_Layer: 5
-  m_Name: MainMenue
+  m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1149,7 +1149,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1867866497}
-        m_MethodName: MainMenu
+        m_MethodName: SelectCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

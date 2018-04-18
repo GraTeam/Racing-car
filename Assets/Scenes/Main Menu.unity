@@ -193,7 +193,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 379687490}
-        m_MethodName: SelectTrack
+        m_MethodName: SelectCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
