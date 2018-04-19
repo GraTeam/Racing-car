@@ -178,5 +178,19 @@ public class RaceFinished : MonoBehaviour {
             Viewmodecar6.SetActive(false);
             Finish_of_RaceMusic.Play();
         }
+        else
+        {
+            this.GetComponent<BoxCollider>().enabled = false;
+            AICar.SetActive(false);
+            LapCompleteTrig.SetActive(false);
+            CarController.m_Topspeed = 0.0f;
+            AICar.GetComponent<CarController>().enabled = false;
+            AICar.GetComponent<CarAIControl>().enabled = false;
+            AICar.SetActive(true);
+            AICar.GetComponent<CarAudio>().StopSound();
+            AICar.GetComponent<CarAudio>().enabled = false;
+            music_of_game.SetActive(false);
+            Finish_of_RaceMusic.Play();
+        }
     }
 }
