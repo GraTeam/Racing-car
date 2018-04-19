@@ -18,7 +18,7 @@ public class CarControlActive : MonoBehaviour {
     // Use this for initialization
     void Start () {
         CarImport = CarSelection.SelectedCar;
-        if (CarImport == 1)
+        if (CarImport == 1 || CarImport == 0)
         {
             CarControl1.GetComponent<CarUserControl>().enabled = true;
         }

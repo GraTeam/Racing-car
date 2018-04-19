@@ -17,7 +17,7 @@ public class SelectedCar : MonoBehaviour {
 
         CarImport = CarSelection.SelectedCar;
 
-        if (CarImport == 1)
+        if (CarImport == 1 || CarImport == 0)
         {
             SelectCar1.SetActive(true);
         }

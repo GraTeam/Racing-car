@@ -23,7 +23,7 @@ public class Camerastable : MonoBehaviour
     }
         void Update()
     {
-        if (CarImport == 1)
+        if (CarImport == 1 || CarImport == 0)
         {
             CarX = Car1.transform.eulerAngles.x;
             CarY = Car1.transform.eulerAngles.y;

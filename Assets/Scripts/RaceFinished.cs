@@ -46,7 +46,7 @@ public class RaceFinished : MonoBehaviour {
 
     void RaceFinish()
     {
-        if (CarImport == 1)
+        if (CarImport == 1 || CarImport == 0)
         {
             this.GetComponent<BoxCollider>().enabled = false;
             Car1.SetActive(false);
