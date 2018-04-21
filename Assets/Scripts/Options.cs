@@ -10,6 +10,11 @@ public class Options : MonoBehaviour {
     public Slider slider;
     public Text progressText;
 
+
+    //public void Restart()
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //}
     public void SelectCar()
     {
         SceneManager.LoadScene(9);
