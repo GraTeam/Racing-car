@@ -8,6 +8,7 @@ public class Dreamcar01Track : MonoBehaviour {
     public GameObject Mark01, Mark02, Mark03, Mark04, Mark05, Mark06, Mark07, Mark08, Mark09, Mark10,
         Mark11, Mark12, Mark13, Mark14, Mark15, Mark16, Mark17, Mark18, Mark19, Mark20, Mark21;
     public int MarkTracker;
+    //public int roundsAI;
 	
 	// Update is called once per frame
 	void Update () {
@@ -107,6 +108,7 @@ public class Dreamcar01Track : MonoBehaviour {
             if(MarkTracker == 21)
             {
                 MarkTracker = 0;
+                //roundsAI++;
             }
             yield return new WaitForSeconds(1);
             this.GetComponent<BoxCollider>().enabled = true;

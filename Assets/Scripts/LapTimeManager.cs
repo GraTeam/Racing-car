@@ -21,7 +21,7 @@ public class LapTimeManager : MonoBehaviour {
 
         MilliCount += Time.deltaTime * 10;
         RowTime += Time.deltaTime;
-        MilliDisplay = MilliCount.ToString("F0");
+        MilliDisplay = MilliCount.ToString("F0"); // "F0" . ب float لانه بيعد رقم  
         MilliBox.GetComponent<Text>().text = "" + MilliDisplay; //because millibox on the panel takes string
 
         if(MilliCount >= 10)

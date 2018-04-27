@@ -86,13 +86,13 @@ public class LapComplete : MonoBehaviour {
 
 
             HalfLapTrig.SetActive(true);
-            LapCompleteTrig.SetActive(false);
+           // LapCompleteTrig.SetActive(false);
         }
         if (collision.gameObject.tag == "Dreamcar01")
         {
             RoundsDoneAI += 1;
             HalfLapTrig.SetActive(true);
-            LapCompleteTrig.SetActive(false);
+           // LapCompleteTrig.SetActive(false);
         }
     }
 }
